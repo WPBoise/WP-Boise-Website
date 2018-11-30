@@ -1,3 +1,6 @@
+![CircleCI (all branches)](https://img.shields.io/circleci/project/github/WPBoise/WP-Boise-Website.svg)
+
+
 # WP Boise Website
 This is the code that runs on [wpboise.com](https://wpboise.com).
 
