@@ -16,7 +16,7 @@
 /web/sitemap.xml.gz
 /web/*.log
 /web/.htaccess
-wp-content.php
+wp-config.php
 index.php
 
 
