@@ -16,9 +16,8 @@
 /web/sitemap.xml.gz
 /web/*.log
 /web/.htaccess
-wp-config.php
-index.php
-
+/web/wp-config.php
+/web/index.php
 
 # @TODO writable paths
 /web/wp-content/cache/
@@ -106,7 +105,6 @@ Thumbs.db
 .sass-cache
 /vendor/
 /bin/
-/web/
 !/web/wp-content/plugins/wordpress-seo/
 !/web/wp-content/plugins/google-analytics-for-wordpress/
 !/web/wp-content/plugins/wp-smushit/
