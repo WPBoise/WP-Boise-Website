@@ -1,6 +1,67 @@
+# WordPress #
+############
+/web/wp-config-local.php
+/web/wp-config-sample.php
+/web/wp-cli.local.yml
+/web/wp-content/uploads
+/web/wp-content/blogs.dir/
+/web/wp-content/upgrade/
+/web/wp-content/backup-db/
+/web/wp-content/updraft/
+/web/wp-content/backupwordpress-*/
+/web/wp-content/managewp/backups/
+/web/wp-content/advanced-cache.php
+/web/wp-content/wp-cache-config.php
+/web/sitemap.xml
+/web/sitemap.xml.gz
+/web/*.log
+/web/.htaccess
+
 # @TODO writable paths
-wp-content/cache/
-wp-content/backups/
+/web/wp-content/cache/
+/web/wp-content/backups/
+
+# Avoid accidental modification of pantheon.upstream.yml in sites
+# created from this upstream
+pantheon.upstream.yml
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+!wp-includes/**/*.gz
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+.sass-cache
+
+# PHP Storm generated files
+.idea
 
 # Avoid accidental modification of pantheon.upstream.yml in sites
 # created from this upstream
@@ -41,9 +102,7 @@ Thumbs.db
 ##########
 .sass-cache
 /vendor/
-/.idea/
 /bin/
-/web/
 !/web/wp-content/plugins/wordpress-seo/
 !/web/wp-content/plugins/google-analytics-for-wordpress/
 !/web/wp-content/plugins/wp-smushit/
